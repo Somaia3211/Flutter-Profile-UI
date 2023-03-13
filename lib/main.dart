@@ -7,6 +7,7 @@ void main() {
   runApp(MaterialApp(
     home: Profile(),
     theme: ThemeData(fontFamily: 'Poppins'),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
